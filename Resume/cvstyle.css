@@ -1,0 +1,462 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Hedvig+Letters+Serif:opsz@12..24&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300..700;1,300..700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    display: flex;
+}
+
+.sidebar {
+    background-color:#192841;
+    width: 350px; 
+    height: 1300px; 
+    color: white; 
+}
+.bgimage{
+    background-color: white;
+    position: relative;
+    width: 270px;
+    height: 270px;
+    border-radius: 50%;
+    left: 40px;
+    top: 30px;
+}
+.sidebar img{
+    position: relative;
+    display: flex;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    left: 11px;
+    top: 10px;
+}
+
+.content {
+    flex: 1; /* Grow to fill remaining space */
+    padding: 20px; /* Add padding to content area */
+    display: flex;
+    flex-direction: column; /* Stack content vertically */
+    align-items: flex-start; /* Align items to the start of the flex container */
+}
+
+.content h1{
+    position: relative;
+    display: flex;
+    font-size: 50px;
+    top: 70px;
+    left: 195px;
+    font-family: 'Gill Sans', 'Gill Sans MT';
+    letter-spacing: 8px;
+    color: #192841;
+}
+
+.content p{
+    position: relative;
+    display: flex;
+    font-size:27px;
+    top:60px;
+    color: #555F61;
+    font-weight: bold;
+    left:270px;
+    font-family: 'Gill Sans', 'Gill Sans MT';
+    letter-spacing: 8px;
+}
+
+.content h2{
+    position: relative;
+    display: flex;
+    font-size: 50px;
+    color: orange;
+    top: 40px;
+    left: 340px;
+    
+}
+
+.prof h1{
+    position: relative;
+    display: flex;
+    color:#192841;
+    top: 150px;
+    left: 50px;
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT';
+    letter-spacing: 0px;
+}
+
+.prof h2{
+    position: relative;
+    display: flex;
+    top: 100px;
+    left: 50px;
+}
+
+.prof p{
+    position: relative;
+    display: flex;
+    color: black;
+    top: 110px;
+    left: 50px;
+    letter-spacing: 0px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    font-weight: lighter;
+}
+
+.education h1{
+    position: relative;
+    display: flex;
+    top: 160px;
+    left: 50px;
+    color: #192841;
+    font-size: 30px;
+    letter-spacing: 0px;
+    font-family: 'Gill Sans', 'Gill Sans MT';
+}
+
+.education h2{
+    position: relative;
+    display: flex;
+    top: 110px;
+    left: 50px;
+}
+
+.education h3 {
+    position: relative;
+    display: flex;
+    color: #192841;
+    top: 135px;
+    left: 50px;
+    font-size: 20px;
+}
+
+.education ul {
+    position: relative;
+    display: flex;
+    list-style: none;
+    top: 140px;
+    left: 51px;
+    font-size: 20px;
+}
+.education h4{
+    position: relative;
+    display: flex;
+    color: #192841;
+    top: 180px;
+    left: 50px;
+    font-size: 20px;
+}
+
+.education p {
+    position: relative;
+    display: flex;
+    color: black;
+    top: 185px;
+    left:50px;
+    font-size:20px;
+    letter-spacing: 0px;
+    font-family: sans-serif;
+    font-weight: lighter;
+}
+
+.exp h1 {
+    position: relative;
+    display: flex;
+    top: 230px;
+    left: 50px;
+    letter-spacing: 0px;
+    font-size: 30px;
+}
+
+.exp h2 {
+    position: relative;
+    display: flex;
+    top: 180px;
+    left: 50px;
+}
+
+.exp ul {
+    position: relative;
+    top: 200px;
+    left: 50px;
+    list-style: none;
+    font-size: 20px;
+}
+
+.projects h1{
+    position: relative;
+    display: flex;
+    top: 230px;
+    left: 50px;
+    font-size: 30px;
+    letter-spacing: 0px;
+}
+
+.projects h2{
+    position: relative;
+    display: flex;
+    top: 180px;
+    left: 50px;
+}
+
+.projects ul{
+    position: relative;
+    top:210px;
+    left: 50px;
+    font-size: 20px;
+    list-style: none;
+}
+.contact h2{
+    position: relative;
+    display: flex;
+    left: 50px;
+    top: 100px;
+    font-family: 'Gill Sans', 'Gill Sans MT';
+}
+
+.contact p{
+    position: relative;
+    display: flex;
+    top: 70px;
+    left: 50px;
+    font-weight: bold;
+    color: orange;
+}
+.contact ul {
+    font-size: 18px;
+    list-style: none;
+    position: relative;
+    top:90px;
+    left:50px;
+    font-family: 'Gill Sans', 'Gill Sans MT';
+}
+
+.contact a {
+    text-decoration: none;
+    color: white;
+}
+
+.skills h2{
+    position: relative;
+    display: flex;
+    left: 50px;
+    top: 130px;
+    font-family: 'Gill Sans', 'Gill Sans MT';
+}
+
+.skills p {
+    position: relative;
+    display: flex;
+    left: 50px;
+    top: 100px;
+    font-weight: bold;
+    color: orange;
+}
+
+.skills ul {
+    font-size: 20px;
+    list-style: none;
+    position: relative;
+    top: 120px;
+    left: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT';
+}
+
+.interest h2{
+    position: relative;
+    display: flex;
+    left: 50px;
+    top: 150px;
+    font-family: 'Gill Sans', 'Gill Sans MT';
+}
+
+.interest p{
+    position: relative;
+    display: flex;
+    left: 50px;
+    top: 120px;
+    font-weight: bold;
+    color: orange;
+}
+
+.interest ul{
+    font-size: 20px;
+    list-style: none;
+    position: relative;
+    top: 140px;
+    left: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT';
+}
+
+@media only screen and (max-width: 764px) {
+    .container {
+        flex-direction: column; /* Stack elements vertically */
+        margin: 5px;
+        align-items: center; /* Center content horizontally */
+    }
+    
+    .prof {
+        margin: 5px;
+    }
+
+    .education {
+        margin: 5px;
+    }
+
+    .exp {
+        margin: 5px;
+    }
+
+    .projects {
+        margin:5px;
+    }
+    .sidebar {
+        transform: translateX(20px);
+        background-color:#192841;
+        width: 550px; 
+        height: 1100px; /* Adjusted height */
+        color: white; 
+        border-radius: 20px; /* Rounded corners */
+        margin: 10px auto; /* Center-align the sidebar horizontally */
+    }
+    
+    .content {
+        margin: 10px;  
+    }
+
+    .name h1 {
+        font-size: 27px;
+        left: 80px;
+        letter-spacing: 2px;
+    }
+
+    .name p {
+        left: 50px;
+        font-size: 25px;
+        letter-spacing: 2px;
+    }
+
+    .name h2 {
+        top: 50px;
+        left: 115px;
+        font-size: 30px;
+    }
+    .prof h1 {
+        top: 120px;
+        left: 40px;
+        font-size: 24px; /* Adjust size for smaller screens */
+    }
+
+    .prof h2 {
+        font-size: 25px;
+        left: 40px;
+        top: 100px;
+    }
+    .prof p {
+        font-size: 10px;
+        letter-spacing: 0px;
+        left: 40px; /* Adjust size for smaller screens */
+    }
+
+    .education h1 {
+        left: 40px;
+        top: 130px;
+        font-size: 24px; /* Adjust size for smaller screens */
+    }
+
+    .education h2 {
+        top: 110px;
+        left: 40px;
+        font-size: 25px; /* Adjust size for smaller screens */
+    }
+
+    .education h3,
+    .education ul,
+    .education h4,
+    .education p {
+        left: 40px;
+        letter-spacing: 0px;
+        font-size: 15px; /* Adjust size for smaller screens */
+    }
+
+    .exp h1 {
+        top: 210px;
+        left: 40px;
+        font-size: 24px; /* Adjust size for smaller screens */
+    }
+
+    .exp h2 {
+        font-size: 25px;
+        left: 40px;
+        top: 190px;
+    }
+    .exp ul {
+        left: 40px;
+        font-size: 10px; /* Adjust size for smaller screens */
+    }
+
+    .projects h1 {
+        top: 220px;
+        left: 40px;
+        font-size: 24px; /* Adjust size for smaller screens */
+    }
+
+    .projects h2{
+        left: 40px;
+        font-size: 25px;
+        top: 200px;
+    }
+    .projects ul {
+        top: 220px;
+        left: 40px;
+        font-size: 14px; /* Adjust size for smaller screens */
+    }
+
+    .bgimage {
+        transform: translateX(75px);
+    }
+    .contact h2 {
+        font-size: 24px; /* Adjust size for smaller screens */
+    }
+
+    .contact p {
+        font-size: 18px; /* Adjust size for smaller screens */
+    }
+
+    .contact ul {
+        font-size: 14px; /* Adjust size for smaller screens */
+    }
+
+    .skills h2 {
+        font-size: 24px; /* Adjust size for smaller screens */
+    }
+
+    .skills p {
+        font-size: 18px; /* Adjust size for smaller screens */
+    }
+
+    .skills ul {
+        font-size: 14px; /* Adjust size for smaller screens */
+    }
+
+    .interest h2 {
+        font-size: 24px; /* Adjust size for smaller screens */
+    }
+
+    .interest p {
+        font-size: 18px; /* Adjust size for smaller screens */
+    }
+
+    .interest ul {
+        font-size: 14px; /* Adjust size for smaller screens */
+    }
+}
